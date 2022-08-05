@@ -5,7 +5,7 @@ steps:
   args: 
   - '-c'
   - |
-      terrafor init
+      terraform init
 
 - id: 'tf apply'
   name: 'hashicorp/terraform:1.0.0'
@@ -13,4 +13,4 @@ steps:
   args: 
   - '-c'
   - |
-      terrafor apply
+      terraform apply
