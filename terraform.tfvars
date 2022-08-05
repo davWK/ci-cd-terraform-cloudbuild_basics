@@ -1,2 +1,2 @@
-project                  = "alilikpo-tf-228"
-credentials_file         = "terraform.json"
+project                  = "PROJECT-ID"
+credentials_file         = "credential.json"
